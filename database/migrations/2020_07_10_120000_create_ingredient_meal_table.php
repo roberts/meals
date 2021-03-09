@@ -11,8 +11,8 @@ class CreateIngredientMealTable extends Migration
         Schema::create('ingredient_meal', function (Blueprint $table) {
             $table->foreignId('ingredient_id')->references('id')->on('ingredients');
             $table->foreignId('meal_id')->references('id')->on('meals');
-            $table->foreignId('amount_id')->references('id')->on('amounts');
-            $table->foreignId('measurement_id')->references('id')->on('measurements');
+            // $table->foreignIdFor(Ingredient::class);
+            // $table->foreignIdFor(Meal::class);
             $table->timestamps();
         });
     }

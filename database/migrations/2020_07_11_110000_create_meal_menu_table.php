@@ -11,6 +11,8 @@ class CreateMealMenuTable extends Migration
         Schema::create('meal_menu', function (Blueprint $table) {
             $table->foreignId('meal_id')->references('id')->on('meals');
             $table->foreignId('menu_id')->references('id')->on('menus');
+            // $table->foreignIdFor(Meal::class);
+            // $table->foreignIdFor(Menu::class);
             $table->timestamps();
         });
     }

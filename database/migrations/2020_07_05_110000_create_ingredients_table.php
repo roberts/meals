@@ -12,7 +12,7 @@ class CreateIngredientsTable extends Migration
             $table->id();
             $table->string('slug')->unique()->index();
             $table->string('title')->unique();
-            $table->foreignId('creator_id')->references('id')->on('users');
+            $table->foreignIdFor(app('user'), 'creator_id');
             $table->timestamps();
         });
     }

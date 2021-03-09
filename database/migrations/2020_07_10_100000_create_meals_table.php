@@ -15,8 +15,8 @@ class CreateMealsTable extends Migration
             $table->string('name')->unique(); // Internal Reference Only
 
             $table->unsignedInteger('price'); // In cents.
-            $table->foreignId('image_id')->nullable()->references('id')->on('images');
-            $table->foreignId('package_image_id')->nullable()->references('id')->on('images');
+            $table->foreignIdFor(app('image'))->nullable();
+            $table->foreignIdFor(app('image'), 'package_image_id')->nullable();
             $table->text('description')->nullable();
             $table->text('display_ingredients')->nullable(); // Ingredient list for display on the website
             $table->integer('servings');
@@ -36,8 +36,8 @@ class CreateMealsTable extends Migration
             $table->integer('added_sugars')->nullable();
             $table->integer('protein')->nullable();
 
-            $table->foreignId('creator_id')->references('id')->on('users');
-            $table->foreignId('updater_id')->references('id')->on('users');
+            $table->foreignIdFor(app('user'), 'creator_id');
+            $table->foreignIdFor(app('user'), 'updater_id');
             $table->softDeletes();
             $table->timestamps();
         });

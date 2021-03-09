@@ -11,6 +11,8 @@ class CreateAllergenMealTable extends Migration
         Schema::create('allergen_meal', function (Blueprint $table) {
             $table->foreignId('allergen_id')->references('id')->on('allergens');
             $table->foreignId('meal_id')->references('id')->on('meals');
+            // $table->foreignIdFor(Allergen::class);
+            // $table->foreignIdFor(Meal::class);
             $table->timestamps();
         });
     }

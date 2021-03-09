@@ -14,9 +14,9 @@ class CreateAllergensTable extends Migration
             $table->string('title')->unique();
             $table->string('contains')->nullable();
             $table->boolean('is_containable')->default(1); // If should include the contains name in that list on meals
-            $table->foreignId('icon_id')->nullable()->references('id')->on('images'); // Icon for allergen
-            $table->foreignId('image_id')->nullable()->references('id')->on('images'); // Cover image for allergen page
-            $table->foreignId('creator_id')->references('id')->on('users');
+            $table->foreignIdFor(app('image'), 'icon_id')->nullable(); // Icon for allergen
+            $table->foreignIdFor(app('image'))->nullable(); // Cover image for allergen page
+            $table->foreignIdFor(app('user'), 'creator_id');
             $table->timestamps();
         });
     }
