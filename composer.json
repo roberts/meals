@@ -16,11 +16,16 @@
     ],
     "require": {
         "php": "^7.4|^8.0",
-        "tipoff/authorization": "^2.0.1",
-        "tipoff/support": "^1.4.11"
+        "drewroberts/media": "^3.2.2",
+        "tipoff/addresses": "^2.2.0",
+        "tipoff/authorization": "^2.5.0",
+        "tipoff/checkout": "^2.3.2",
+        "tipoff/locations": "^2.4.0",
+        "tipoff/seo": "^2.0.0",
+        "tipoff/support": "^1.5.10"
     },
     "require-dev": {
-        "tipoff/test-support": "^1.0.9"
+        "tipoff/test-support": "^1.2.0"
     },
     "autoload": {
         "psr-4": {
