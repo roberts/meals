@@ -7,3 +7,7 @@ All notable changes to `meals` will be documented in this file.
 - initial release
 - add migrations
 - run migrations from package
+
+## 1.0.1 - 2021-03-11
+
+- require dependencies
