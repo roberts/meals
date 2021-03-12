@@ -11,3 +11,7 @@ All notable changes to `meals` will be documented in this file.
 ## 1.0.1 - 2021-03-11
 
 - require dependencies
+
+## 1.1.0 - 2021-03-12
+
+- menu categories
