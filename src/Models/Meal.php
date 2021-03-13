@@ -18,7 +18,7 @@ class Meal extends BaseModel
     use SoftDeletes;
 
     protected $with = [
-        'categories'
+        'categories',
     ];
 
     protected static function boot()
