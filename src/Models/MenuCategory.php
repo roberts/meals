@@ -38,6 +38,6 @@ class MenuCategory extends BaseModel
 
     public function image()
     {
-        return $this->belongsTo(\DrewRoberts\Media\Models\Image::class);
+        return $this->belongsTo(app('image'));
     }
 }

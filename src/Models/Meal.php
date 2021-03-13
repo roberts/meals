@@ -43,12 +43,12 @@ class Meal extends BaseModel
 
     public function image()
     {
-        return $this->belongsTo(\DrewRoberts\Media\Models\Image::class);
+        return $this->belongsTo(app('image'));
     }
 
     public function package_image()
     {
-        return $this->belongsTo(\DrewRoberts\Media\Models\Image::class, 'package_image_id');
+        return $this->belongsTo(app('image'), 'package_image_id');
     }
 
     public function allergens()

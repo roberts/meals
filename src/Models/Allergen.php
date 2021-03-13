@@ -13,16 +13,9 @@ class Allergen extends BaseModel
     use HasCreator;
     use HasPackageFactory;
 
-    protected $guarded = ['id'];
-
-    protected $dates = [
-        'created_at',
-        'updated_at',
-    ];
-
     public function users()
     {
-        return $this->belongsToMany(User::class)->withTimestamps();
+        return $this->belongsToMany(app('user'))->withTimestamps();
     }
 
     public function meals()
