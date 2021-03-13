@@ -34,6 +34,6 @@ class Menu extends BaseModel
 
     public function categories()
     {
-        return $this->hasManyDeep('App\Models\MenuCategory', ['meal_menu', 'App\Models\Meal', 'meal_menu_category']);
+        return $this->hasManyDeep('Roberts\Meals\Models\MenuCategory', ['meal_menu', 'Roberts\Meals\Models\Meal', 'meal_menu_category']);
     }
 }
