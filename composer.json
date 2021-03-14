@@ -17,13 +17,13 @@
     "require": {
         "php": "^7.4|^8.0",
         "drewroberts/media": "^3.3.0",
-        "staudenmeir/eloquent-has-many-deep": "^1.13",
-        "tipoff/addresses": "^2.4.2",
-        "tipoff/authorization": "^2.5.1",
-        "tipoff/checkout": "^2.4.0",
-        "tipoff/locations": "^2.5.1",
-        "tipoff/seo": "^2.1.0",
-        "tipoff/support": "^1.6.0"
+        "staudenmeir/eloquent-has-many-deep": "^1.13.1",
+        "tipoff/addresses": "^2.4.3",
+        "tipoff/authorization": "^2.5.5",
+        "tipoff/checkout": "^2.4.2",
+        "tipoff/locations": "^2.5.4",
+        "tipoff/seo": "^2.2.0",
+        "tipoff/support": "^1.6.3"
     },
     "require-dev": {
         "tipoff/test-support": "^1.2.0"
