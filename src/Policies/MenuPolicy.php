@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Roberts\Menus\Policies;
+namespace Roberts\Meals\Policies;
 
 use Illuminate\Auth\Access\HandlesAuthorization;
-use Roberts\Menus\Models\Menu;
+use Roberts\Meals\Models\Menu;
 use Tipoff\Support\Contracts\Models\UserInterface;
 
 class MenuPolicy
