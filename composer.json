@@ -16,14 +16,24 @@
     ],
     "require": {
         "php": "^7.4|^8.0",
+        "drewroberts/blog": "^4.2.0",
         "drewroberts/media": "^3.3.0",
         "staudenmeir/eloquent-has-many-deep": "^1.13.1",
         "tipoff/addresses": "^2.4.3",
         "tipoff/authorization": "^2.5.5",
         "tipoff/checkout": "^2.4.2",
+        "tipoff/discounts": "^2.1.1",
+        "tipoff/fees": "^2.1.1",
+        "tipoff/invoices": "^2.0.0",
         "tipoff/locations": "^2.5.4",
+        "tipoff/notes": "^2.0.0",
+        "tipoff/payments": "^2.3.0",
+        "tipoff/products": "^2.0.0",
+        "tipoff/refunds": "^2.1.0",
         "tipoff/seo": "^2.2.0",
         "tipoff/support": "^1.6.3"
+        "tipoff/taxes": "^2.0.3",
+        "tipoff/vouchers": "^2.2.1"
     },
     "require-dev": {
         "tipoff/test-support": "^1.2.0"
