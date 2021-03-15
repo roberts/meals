@@ -4,7 +4,6 @@ namespace Roberts\Meals\Nova;
 
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\ID;
-use Laravel\Nova\Http\Requests\NovaRequest;
 use Tipoff\Support\Nova\BaseResource;
 
 class Ingredient extends BaseResource
