@@ -31,3 +31,8 @@ All notable changes to `meals` will be documented in this file.
 ## 2.0.1 - 2021-03-15
 
 - require packages as dependenices
+
+## 2.0.2 - 2021-03-15
+
+- register policies
+- register nova resources
