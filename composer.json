@@ -31,7 +31,7 @@
         "tipoff/products": "^2.0.0",
         "tipoff/refunds": "^2.1.0",
         "tipoff/seo": "^2.2.0",
-        "tipoff/support": "^1.6.3"
+        "tipoff/support": "^1.6.3",
         "tipoff/taxes": "^2.0.3",
         "tipoff/vouchers": "^2.2.1"
     },
