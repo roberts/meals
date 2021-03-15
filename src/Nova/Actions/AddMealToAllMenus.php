@@ -2,17 +2,17 @@
 
 namespace Roberts\Meals\Nova\Actions;
 
-use Roberts\Meals\Models\Menu;
 use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Support\Collection;
 use Laravel\Nova\Actions\Action;
 use Laravel\Nova\Fields\ActionFields;
+use Roberts\Meals\Models\Menu;
 
 class AddMealToAllMenus extends Action
 {
-    use InteractsWithQueue, Queueable;
+    use InteractsWithQueue;
+    use Queueable;
 
     public function handle(ActionFields $fields, Collection $models)
     {
