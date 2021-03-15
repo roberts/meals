@@ -17,7 +17,7 @@ use Tipoff\Support\Nova\BaseResource;
 
 class MenuCategory extends BaseResource
 {
-    public static $model = \Roberts\Meals\MenuCategory::class;
+    public static $model = \Roberts\Meals\Models\MenuCategory::class;
 
     public static $title = 'title';
 

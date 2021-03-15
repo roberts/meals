@@ -9,7 +9,7 @@ use Tipoff\Support\Nova\BaseResource;
 
 class Ingredient extends BaseResource
 {
-    public static $model = \Roberts\Meals\Ingredient::class;
+    public static $model = \Roberts\Meals\Models\Ingredient::class;
 
     public static $title = 'id';
 

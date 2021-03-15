@@ -16,7 +16,7 @@ use Tipoff\Support\Nova\BaseResource;
 
 class Allergen extends BaseResource
 {
-    public static $model = \Roberts\Meals\Allergen::class;
+    public static $model = \Roberts\Meals\Models\Allergen::class;
 
     public static $title = 'title';
 
