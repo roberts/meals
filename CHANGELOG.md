@@ -27,3 +27,7 @@ All notable changes to `meals` will be documented in this file.
 - add nova resources
 - register nova resources
 - add nova filter
+
+## 2.0.1 - 2021-03-15
+
+- require packages as dependenices
