@@ -14,5 +14,4 @@ class MenuChange extends BaseModel
     use HasCreator;
     use HasPackageFactory;
     use HasUpdater;
-
 }
