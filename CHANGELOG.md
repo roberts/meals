@@ -36,3 +36,7 @@ All notable changes to `meals` will be documented in this file.
 
 - register policies
 - register nova resources
+
+## 2.0.3 - 2021-03-17
+
+- bump package dependenices
