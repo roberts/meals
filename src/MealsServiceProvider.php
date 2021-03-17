@@ -13,9 +13,9 @@ use Roberts\Meals\Models\MenuChange;
 use Roberts\Meals\Policies\AllergenPolicy;
 use Roberts\Meals\Policies\IngredientPolicy;
 use Roberts\Meals\Policies\MealPolicy;
-use Roberts\Meals\Policies\MenuPolicy;
 use Roberts\Meals\Policies\MenuCategoryPolicy;
 use Roberts\Meals\Policies\MenuChangePolicy;
+use Roberts\Meals\Policies\MenuPolicy;
 use Tipoff\Support\TipoffPackage;
 use Tipoff\Support\TipoffServiceProvider;
 

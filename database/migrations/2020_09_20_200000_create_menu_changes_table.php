@@ -3,6 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
+use Roberts\Meals\Models\Meal;
 
 class CreateMenuChangesTable extends Migration
 {
@@ -10,13 +11,12 @@ class CreateMenuChangesTable extends Migration
     {
         Schema::create('menu_changes', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('menu_id')->references('id')->on('menus')->nullable();
-            $table->foreignId('next_menu_id')->references('id')->on('menus')->nullable();
-            $table->foreignId('ondeck_menu_id')->references('id')->on('menus')->nullable();
-            // $table->foreignIdFor(Menu::class)->nullable();
-            // $table->foreignIdFor(Menu::class, 'next_menu_id')->nullable();
-            // $table->foreignIdFor(Menu::class, 'ondeck_menu_id')->nullable();
+            $table->foreignIdFor(Menu::class)->nullable();
+            $table->foreignIdFor(Menu::class, 'next_menu_id')->nullable();
+            $table->foreignIdFor(Menu::class, 'ondeck_menu_id')->nullable();
             $table->dateTime('change_at'); // Thursdays at midnight
+            $table->foreignIdFor(app('user'), 'creator_id')->nullable();
+            $table->foreignIdFor(app('user'), 'updater_id')->nullable();
             $table->timestamps();
         });
     }
