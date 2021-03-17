@@ -40,3 +40,7 @@ All notable changes to `meals` will be documented in this file.
 ## 2.0.3 - 2021-03-17
 
 - bump package dependenices
+
+## 2.0.4 - 2021-03-17
+
+- base nova resource for menu change
