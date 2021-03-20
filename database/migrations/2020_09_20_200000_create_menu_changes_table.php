@@ -3,7 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
-use Roberts\Meals\Models\Meal;
+use Roberts\Meals\Models\Menu;
 
 class CreateMenuChangesTable extends Migration
 {
