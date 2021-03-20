@@ -44,3 +44,7 @@ All notable changes to `meals` will be documented in this file.
 ## 2.0.4 - 2021-03-17
 
 - base nova resource for menu change
+
+## 2.0.5 - 2021-03-19
+
+- update migrations
