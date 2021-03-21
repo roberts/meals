@@ -8,6 +8,7 @@ use Laravel\Nova\NovaCoreServiceProvider;
 use Roberts\Meals\MealsServiceProvider;
 use Tipoff\Support\SupportServiceProvider;
 use Tipoff\TestSupport\BaseTestCase;
+use Tipoff\TestSupport\Providers\NovaPackageServiceProvider;
 
 class TestCase extends BaseTestCase
 {
@@ -15,7 +16,7 @@ class TestCase extends BaseTestCase
     {
         return [
             NovaCoreServiceProvider::class,
-            NovaTestbenchServiceProvider::class,
+            NovaPackageServiceProvider::class,
             MealsServiceProvider::class,
             SupportServiceProvider::class,
         ];
