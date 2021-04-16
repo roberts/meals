@@ -16,27 +16,22 @@
     ],
     "require": {
         "php": "^7.4|^8.0",
-        "drewroberts/blog": "^4.3.0",
-        "drewroberts/media": "^3.4.1",
         "staudenmeir/eloquent-has-many-deep": "^1.13.1",
-        "tipoff/addresses": "^2.7.7",
         "tipoff/authorization": "^2.7.1",
-        "tipoff/checkout": "^2.6.0",
-        "tipoff/discounts": "^2.1.1",
-        "tipoff/fees": "^2.2.0",
-        "tipoff/invoices": "^2.0.2",
-        "tipoff/locations": "^2.8.2",
-        "tipoff/notes": "^2.0.1",
-        "tipoff/payments": "^2.5.1",
-        "tipoff/products": "^2.0.2",
-        "tipoff/refunds": "^2.2.0",
-        "tipoff/seo": "^2.5.2",
-        "tipoff/support": "^1.8.9",
-        "tipoff/taxes": "^2.1.0",
-        "tipoff/vouchers": "^2.3.1"
+        "tipoff/checkout": "^2.7.1",
+        "tipoff/discounts": "^2.2.0",
+        "tipoff/fees": "^2.3.0",
+        "tipoff/invoices": "^2.1.0",
+        "tipoff/notes": "^2.1.0",
+        "tipoff/payments": "^2.6.0",
+        "tipoff/products": "^2.2.1",
+        "tipoff/refunds": "^2.3.0",
+        "tipoff/support": "^2.1.3",
+        "tipoff/taxes": "^2.2.0",
+        "tipoff/vouchers": "^2.4.0"
     },
     "require-dev": {
-        "tipoff/test-support": "^1.4.2"
+        "tipoff/test-support": "^2.0.0"
     },
     "autoload": {
         "psr-4": {
