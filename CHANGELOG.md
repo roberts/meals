@@ -48,3 +48,7 @@ All notable changes to `meals` will be documented in this file.
 ## 2.0.5 - 2021-03-19
 
 - update migrations
+
+## 2.1.0 - 2021-04-16
+
+- bump package dependencies
