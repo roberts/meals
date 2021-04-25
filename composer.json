@@ -17,8 +17,8 @@
     "require": {
         "php": "^7.4|^8.0",
         "staudenmeir/eloquent-has-many-deep": "^1.13.1",
-        "tipoff/authorization": "^2.7.1",
-        "tipoff/checkout": "^2.7.1",
+        "tipoff/authorization": "^2.8.6",
+        "tipoff/checkout": "^2.7.2",
         "tipoff/discounts": "^2.2.0",
         "tipoff/fees": "^2.3.0",
         "tipoff/invoices": "^2.1.0",
@@ -26,12 +26,12 @@
         "tipoff/payments": "^2.6.0",
         "tipoff/products": "^2.2.1",
         "tipoff/refunds": "^2.3.0",
-        "tipoff/support": "^2.1.3",
+        "tipoff/support": "^2.1.5",
         "tipoff/taxes": "^2.2.0",
         "tipoff/vouchers": "^2.4.0"
     },
     "require-dev": {
-        "tipoff/test-support": "^2.0.0"
+        "tipoff/test-support": "^2.0.1"
     },
     "autoload": {
         "psr-4": {
